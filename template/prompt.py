@@ -2,7 +2,7 @@ from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 
 # Define the prompt template that includes user_id
 main_chat_prompt = ChatPromptTemplate.from_messages([
-    ("system", "You are a helpful assistant at MaxBit services. Strictly do not search on internet for any query.\n"
+    ("system", "You are a helpful assistant. Strictly do not search on internet for any query.\n"
                "First, check the conversation history — if this question has already been answered, just return the previous answer.\n"
                "Use the binded tool to answer questions based on following topics:\n"
                "- FIAT Deposit transaction and status\n"
