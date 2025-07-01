@@ -1,0 +1,12 @@
+python-dotenv
+pypandoc
+uvicorn
+fastapi
+python-multipart
+chromadb
+redis
+langchain-chroma
+langchain-huggingface
+mysql-connector-python
+langchain-community
+langchain-openai
